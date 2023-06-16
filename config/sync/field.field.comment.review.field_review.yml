@@ -1,0 +1,21 @@
+uuid: 4a49a6db-1ce1-4d92-b8eb-ac75fdb7b8d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.storage.comment.field_review
+  module:
+    - text
+id: comment.review.field_review
+field_name: field_review
+entity_type: comment
+bundle: review
+label: Review
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

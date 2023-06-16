@@ -1,0 +1,17 @@
+uuid: 7eb12201-b6c6-47af-9814-c0c39d4a40a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: news
+description: 'Movies and celebrity news'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

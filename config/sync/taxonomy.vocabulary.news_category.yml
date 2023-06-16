@@ -1,0 +1,8 @@
+uuid: b4d65ade-03af-42d6-89ed-ef533adcdafe
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Category'
+vid: news_category
+description: 'Group news into movie and celebrity category.'
+weight: 0

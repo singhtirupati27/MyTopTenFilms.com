@@ -1,0 +1,14 @@
+uuid: 69c9f9a5-44b0-46de-a53c-b28585960fcd
+langcode: en
+status: true
+dependencies: {  }
+name: movie_large_300x200_
+label: 'Movie Large (300x200)'
+effects:
+  78ff14f9-68f2-482c-996a-9432962ecc63:
+    uuid: 78ff14f9-68f2-482c-996a-9432962ecc63
+    id: image_resize
+    weight: 2
+    data:
+      width: 300
+      height: 200

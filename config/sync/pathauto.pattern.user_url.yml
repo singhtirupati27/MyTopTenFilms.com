@@ -1,0 +1,14 @@
+uuid: da7ddff1-1d56-47ca-9bdb-9afeb742b55d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_url
+label: 'User URL'
+type: 'canonical_entities:user'
+pattern: '/user/[user:account-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

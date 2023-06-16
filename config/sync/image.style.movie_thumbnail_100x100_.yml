@@ -1,0 +1,14 @@
+uuid: cf459d38-39ae-485b-9501-8bc116a07cfe
+langcode: en
+status: true
+dependencies: {  }
+name: movie_thumbnail_100x100_
+label: 'Movie Thumbnail (100x100)'
+effects:
+  f3c43253-3538-4aa0-9c66-b43bde340738:
+    uuid: f3c43253-3538-4aa0-9c66-b43bde340738
+    id: image_resize
+    weight: 2
+    data:
+      width: 100
+      height: 100

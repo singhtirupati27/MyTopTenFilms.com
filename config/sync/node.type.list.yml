@@ -1,0 +1,17 @@
+uuid: bde9654d-7eac-48ad-b0eb-0a5503b1c296
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: List
+type: list
+description: "Store user's movie list."
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

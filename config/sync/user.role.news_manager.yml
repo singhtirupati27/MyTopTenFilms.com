@@ -1,0 +1,32 @@
+uuid: 647dc91a-ae20-4081-90ac-dd2bc8b3f9d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - contextual
+    - devel_generate
+    - node
+    - path
+    - system
+    - toolbar
+    - tour
+id: news_manager
+label: 'News Manager'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer devel_generate'
+  - 'administer url aliases'
+  - 'create news content'
+  - 'create url aliases'
+  - 'delete own news content'
+  - 'edit own news content'
+  - 'view own unpublished content'
+  - 'view the administration theme'

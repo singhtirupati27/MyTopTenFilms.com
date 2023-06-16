@@ -1,0 +1,8 @@
+uuid: de71acc2-455e-4c19-99bc-9d754fdf36c4
+langcode: en
+status: true
+dependencies: {  }
+id: review
+label: Review
+target_entity_type_id: node
+description: 'Add a movie review.'

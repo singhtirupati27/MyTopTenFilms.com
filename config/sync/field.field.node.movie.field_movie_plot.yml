@@ -1,0 +1,19 @@
+uuid: 61fb3c54-2a47-4bb0-b082-d442306a19e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_plot
+    - node.type.movie
+id: node.movie.field_movie_plot
+field_name: field_movie_plot
+entity_type: node
+bundle: movie
+label: Plot
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,36 @@
+uuid: 1f29cc51-0d44-4808-97be-9d8ce1e9c34b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.list
+    - node.type.movie
+  module:
+    - contextual
+    - devel_generate
+    - node
+    - path
+    - system
+    - toolbar
+    - tour
+id: movie_mana
+label: 'Movie Manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer devel_generate'
+  - 'administer url aliases'
+  - 'create list content'
+  - 'create movie content'
+  - 'create url aliases'
+  - 'delete own list content'
+  - 'delete own movie content'
+  - 'edit own list content'
+  - 'edit own movie content'
+  - 'view own unpublished content'
+  - 'view the administration theme'

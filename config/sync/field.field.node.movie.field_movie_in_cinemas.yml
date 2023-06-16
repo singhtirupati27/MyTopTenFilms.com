@@ -1,0 +1,28 @@
+uuid: 0fa38ef0-9556-45f4-a2d9-beee31748fd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_in_cinemas
+    - node.type.movie
+  module:
+    - link
+id: node.movie.field_movie_in_cinemas
+field_name: field_movie_in_cinemas
+entity_type: node
+bundle: movie
+label: 'Movie In Cinemas'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://in.bookmyshow.com/explore/movies-kolkata'
+    title: 'In Cinemas'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 16
+field_type: link

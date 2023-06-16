@@ -1,0 +1,32 @@
+uuid: 49965717-7ee3-4793-9523-8912133e7ea4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.news.field_news_body
+    - field.field.node.news.field_news_category
+    - node.type.news
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.news.full
+targetEntityType: node
+bundle: news
+mode: full
+content:
+  field_news_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_news_category: true
+  links: true

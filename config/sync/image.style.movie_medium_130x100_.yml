@@ -1,0 +1,14 @@
+uuid: f3471a62-f4d9-47cb-bfad-e68a5b5a341e
+langcode: en
+status: true
+dependencies: {  }
+name: movie_medium_130x100_
+label: 'Movie Medium (130x100)'
+effects:
+  ddf375ec-e7a6-4384-8638-0d42fbd8fcc7:
+    uuid: ddf375ec-e7a6-4384-8638-0d42fbd8fcc7
+    id: image_resize
+    weight: 2
+    data:
+      width: 130
+      height: 100
