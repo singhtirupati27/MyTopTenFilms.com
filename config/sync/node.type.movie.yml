@@ -1,0 +1,17 @@
+uuid: 4d1f64a6-9add-402b-87b6-a7be05addc85
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Movie
+type: movie
+description: 'Store movie information.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

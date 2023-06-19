@@ -1,0 +1,12 @@
+uuid: 83d64fd2-1267-46d4-93cf-8d8a150772c6
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - tirupati.singh@innoraft.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

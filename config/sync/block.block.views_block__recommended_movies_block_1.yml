@@ -1,0 +1,29 @@
+uuid: 65681ae0-85f3-4946-a29d-fc610e0f7159
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recommended_movies
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__recommended_movies_block_1
+theme: bootstrap5
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:recommended_movies-block_1'
+settings:
+  id: 'views_block:recommended_movies-block_1'
+  label: Recommended
+  label_display: visible
+  provider: views
+  views_label: Recommended
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/movie/*\r\n/search"

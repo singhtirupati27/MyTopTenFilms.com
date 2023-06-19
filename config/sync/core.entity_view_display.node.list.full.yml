@@ -1,0 +1,80 @@
+uuid: f9dd937a-a1a2-4bd4-89ca-90c617935e8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.list.field_movie_name
+    - field.field.node.list.field_why_these_are_in_the_list
+    - node.type.list
+  module:
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          bb9a6a64-0d2b-4092-bc1e-846af64d2923:
+            uuid: bb9a6a64-0d2b-4092-bc1e-846af64d2923
+            region: content
+            configuration:
+              id: 'field_block:node:list:field_why_these_are_in_the_list'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          ee4780d9-974d-4967-9420-2b7c6620666f:
+            uuid: ee4780d9-974d-4967-9420-2b7c6620666f
+            region: content
+            configuration:
+              id: 'field_block:node:list:field_movie_name'
+              label: 'Movie Name'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: movie_list_view
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.list.full
+targetEntityType: node
+bundle: list
+mode: full
+content:
+  field_movie_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_why_these_are_in_the_list:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

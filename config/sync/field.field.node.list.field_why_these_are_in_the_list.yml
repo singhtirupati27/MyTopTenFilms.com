@@ -1,0 +1,19 @@
+uuid: f0092aa3-8068-48bd-818b-348f62272832
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_why_these_are_in_the_list
+    - node.type.list
+id: node.list.field_why_these_are_in_the_list
+field_name: field_why_these_are_in_the_list
+entity_type: node
+bundle: list
+label: 'Why these are in the list'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

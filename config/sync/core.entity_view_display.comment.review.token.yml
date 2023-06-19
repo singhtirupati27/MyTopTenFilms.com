@@ -1,0 +1,33 @@
+uuid: 98797ec3-ae83-4c24-bef7-963d93bba33e
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - core.entity_view_mode.comment.token
+    - field.field.comment.review.field_review
+  module:
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: comment.review.token
+targetEntityType: comment
+bundle: review
+mode: token
+content:
+  field_review:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

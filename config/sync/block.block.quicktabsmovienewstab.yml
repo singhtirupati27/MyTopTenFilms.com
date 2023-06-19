@@ -1,0 +1,25 @@
+uuid: a1fd9f02-7b85-44b5-a6d4-7c7e079d03b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - bootstrap5
+id: quicktabsmovienewstab
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:movie_news_tab'
+settings:
+  id: 'quicktabs_block:movie_news_tab'
+  label: 'QuickTabs - Movie News Tab'
+  label_display: '0'
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news

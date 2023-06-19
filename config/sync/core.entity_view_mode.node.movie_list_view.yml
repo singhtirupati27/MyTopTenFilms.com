@@ -1,0 +1,10 @@
+uuid: bc85fe2b-d882-4c1b-ae32-2a12f343b276
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.movie_list_view
+label: 'Movie List View'
+targetEntityType: node
+cache: true

@@ -1,0 +1,70 @@
+uuid: 7d08deb9-bf7c-4ca1-a1bf-66f762f2a5cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.review.default
+    - core.entity_view_mode.node.movie_review_
+    - field.field.node.movie.field_movie_buy_on_dvd
+    - field.field.node.movie.field_movie_genres
+    - field.field.node.movie.field_movie_image
+    - field.field.node.movie.field_movie_in_cinemas
+    - field.field.node.movie.field_movie_netflix
+    - field.field.node.movie.field_movie_plot
+    - field.field.node.movie.field_movie_release_date
+    - field.field.node.movie.field_movie_trailer_link
+    - field.field.node.movie.field_review
+    - image.style.movie_large_300x200_
+    - node.type.movie
+  module:
+    - comment
+    - datetime
+    - image
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.movie.movie_review_
+targetEntityType: node
+bundle: movie
+mode: movie_review_
+content:
+  field_movie_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: movie_large_300x200_
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_movie_release_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_review:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_movie_buy_on_dvd: true
+  field_movie_genres: true
+  field_movie_in_cinemas: true
+  field_movie_netflix: true
+  field_movie_plot: true
+  field_movie_trailer_link: true
+  links: true

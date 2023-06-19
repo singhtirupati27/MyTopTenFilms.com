@@ -1,0 +1,36 @@
+uuid: 6da0cda5-dd39-4f3b-8406-cb8c7780f0c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.list.field_movie_name
+    - field.field.node.list.field_why_these_are_in_the_list
+    - node.type.list
+  module:
+    - user
+id: node.list.default
+targetEntityType: node
+bundle: list
+mode: default
+content:
+  field_movie_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_why_these_are_in_the_list:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

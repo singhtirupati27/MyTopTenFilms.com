@@ -1,0 +1,8 @@
+uuid: 3743a4b7-4ee4-44ae-9ab5-f4c08ba22a4a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Movie Genres'
+vid: movie_genres
+description: 'Use tags to group movies on similar genres into categories.'
+weight: 0
